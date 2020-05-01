@@ -1,0 +1,14 @@
+.content {                
+    width: 200px;
+    div {                      
+      background: #ddf;
+      height: 200px;
+      &>:nth-child(n) {  
+        margin-bottom: 10px;
+        font: {
+            size: 30px;
+            weight: bold;
+        }
+      }
+    }
+}
