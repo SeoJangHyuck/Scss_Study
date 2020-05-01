@@ -12,8 +12,8 @@ Angular 개발에 필요한 SCSS(Sass) 가이드
 .content                       // Sass
   width: 100px
   div
-    background: #ddf;
-    height: 200px;
+    background: #ddf
+    height: 200px
     &>:nth-child(n)
       margin-bottom: 10px
 ```
