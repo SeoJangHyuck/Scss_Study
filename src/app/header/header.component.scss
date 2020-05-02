@@ -1,5 +1,13 @@
-@import 'src/environments/layout/color';
+// @import "src/layout/colors";
+@import "colors.scss";
 
-h1{
-    color: $color-red;
+$space_content: 20px;
+
+h1 {
+  height: calc(40px + #{$space_content});
+}
+
+p {
+  color: $color-red;
+  margin-bottom: $space_content;
 }
